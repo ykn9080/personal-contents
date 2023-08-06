@@ -1,0 +1,54 @@
+---
+id: 27
+date:  2021-12-31
+tags: ["interests"]
+title: Gatsby
+slug: gatsby
+seq: 7
+type: interest
+language: kr
+featureImage: https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_home.png
+thumb: https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby_logo.jpg
+github:
+demo: https://ykn9080.github.io
+videoSourceURL:
+videoTitle:
+embeddedImagesRemote:
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_laptop1.png
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_pad1.png
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_mobile1.png
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_laptop1_dark.png
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_pad1_dark.png
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_mobile1_dark.png
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_en.png
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_kr.png
+  - https://raw.githubusercontent.com/ykn9080/personal-contents/main/images/interest/gatsby/gatsby_tw.png
+
+excerpt: Gatsby는 static site를 생성하는 웹프레임워크입니다.;React와 함께 사용하면 React의 모든 기능과 함께 gatsby의 수많은 플러그인 툴들을 사용하여 Rich하면서 가벼운 정적 사이틀 생성할 수 있습니다.
+---
+
+import { getImage, GatsbyImage } from "gatsby-plugin-image"
+
+## Responsive design
+
+<div className="gridthree">
+  <GatsbyImage alt="laptop" image={getImage(props.localImages[0])} />
+  <GatsbyImage alt="pad" image={getImage(props.localImages[1])} />
+  <GatsbyImage alt="mobile" image={getImage(props.localImages[2])} />
+</div>
+
+## Dark Mode
+
+<div className="gridthree">
+  <GatsbyImage alt="laptop_dark" image={getImage(props.localImages[3])} />
+  <GatsbyImage alt="pad_dark" image={getImage(props.localImages[4])} />
+  <GatsbyImage alt="mobile_dark" image={getImage(props.localImages[5])} />
+</div>
+
+## MultiLanguage
+
+<div className="gridthree grideven">
+  <GatsbyImage alt="english" image={getImage(props.localImages[6])} />
+  <GatsbyImage alt="korean" image={getImage(props.localImages[7])} />
+  <GatsbyImage alt="chinese" image={getImage(props.localImages[8])} />
+</div>
